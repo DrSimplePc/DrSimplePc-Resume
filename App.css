@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.leftC {
+    position: relative;
+    background: darkgray;
+    padding: 40px;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(173, 216, 230, 1);
+    font-size: small;
+}
+
+
+
+/* ---------------------------- */
+
+.Contact {
+    font-size: larger;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(173, 216, 230, 1);
+
+}
+
+.Contact h3 {
+    padding: 15px 15px;
+}
+
+.Contact li a {
+    padding: 0px 50px;
+    text-decoration: none;
+
+}
+
+.Contact .fa-solid {
+    color: rgb(56, 152, 184);
+}
+
+.Contact .fa-brands {
+    color: rgb(56, 152, 184);
+}
+
+/* ----------------- */
+
+.Education {
+    margin: 30px 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(173, 216, 230, 1);
+}
+
+.Education .EdEnter {
+    margin: 20px 10px;
+}
+
+.Education .EdEnter h3 {
+    color: aquamarine;
+}
+
+.Education .EdEnter p {
+    font-size: larger;
+}
+
+.Education .EdEnter h5 {
+    color: darkcyan;
+    font-size: small;
+}
+
+
+/* ------------------------- */
+.languages .lan_row .line div {
+    position: relative;
+    background: darkcyan;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+
+}
+
+.languages .lan_row .line {
+    background-color: white;
+
+}
+
+.languages .lan_row h3 {
+    color: rgb(97, 97, 233);
+    margin: 10px auto;
+}
+
+
+/* ------------------------------ */
+
+.RightC {
+    position: relative;
+    background: #ADD8E6;
+    padding: 40px;
+}
+
+.profile {
+    font-size: medium;
+    font-weight: 300;
+}
+
+.profile h1 {
+    font-weight: 900;
+    color: darkblue;
+
+}
+
+/* ---------------------------- */
+
+.Exp {
+    margin: 40px auto auto auto;
+    padding-bottom: 40x;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+
+}
+
+.Exp h1 {
+    color: darkblue;
+
+
+}
+
+.Exp .exp_row h3 {
+    color: darkgray;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.Exp .exp_row p {
+    font-size: small;
+    margin-bottom: 20px;
+
+}
+
+
+/* --------------------------------------- */
+
+.Ps .Ps_row .line div {
+    position: relative;
+    background: darkcyan;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+
+}
+
+.Ps .Ps_row .line {
+    background-color: white;
+
+}
+
+.Ps .Ps_row h3 {
+    color: rgb(97, 97, 233);
+    margin: 10px auto;
+}
+
+/* ------------------------------- */
+
+.Op {
+    margin-top: 20px;
+
+}
+
+.Op h1 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.Op .row {
+    margin: 20px;
+    color: rgb(97, 97, 233);
+    display: flex;
+    flex: 1;
+
+
+}
+
+.Op .row a {
+    text-decoration: none;
+    color: rgb(20, 20, 121);
+    font-weight: 900;
+}
+
+.container img {
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
